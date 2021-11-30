@@ -12,7 +12,7 @@
         <div class="wrapper">
             <section class="form signup">
                 <header>Chatyyy!</header>
-                <form action="#">
+                <form action="#" enctype="multipart/form-data">
                     <div class="error-txt">Error message</div>
                     <div class="name-details">
                         <div class="field input">
