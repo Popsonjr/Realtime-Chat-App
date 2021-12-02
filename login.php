@@ -16,21 +16,22 @@
                     <div class="error-txt">Error message</div>
                     <div class="field input">
                         <label>Email Address</label>
-                        <input type="text" placeholder="Enter your email address">
+                        <input type="text" placeholder="Enter your email address" name="email">
                     </div>
                     <div class="field input">
                         <label>Password</label>
-                        <input type="password" placeholder="Enter new password">
+                        <input type="password" placeholder="Enter new password" name="password">
                         <i class="fas fa-eye"></i>
                     </div>
                     <div class="field button">
                         <input type="submit" value="Continue to chat">
                     </div>
-                    <div class="link">Don't have an account? <a href="#"">Signup now</a></div>
+                    <div class="link">Don't have an account? <a href="index.php">Signup now</a></div>
                 </form>
                 
             </section>
         </div>
         <script src="js/pass-show-hide.js"></script>
+        <script src="js/login.js"></script>
     </body>
 </html>

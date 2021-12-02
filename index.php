@@ -40,7 +40,7 @@
                     <div class="field button">
                         <input type="submit" value="Continue to chat">
                     </div>
-                    <div class="link">Already signed Up? <a href="#"">Login now</a></div>
+                    <div class="link">Already signed Up? <a href="login.php">Login now</a></div>
                 </form>
                 
             </section>
