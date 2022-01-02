@@ -1,7 +1,8 @@
 <?php 
     session_start();
     include_once "config.php";
-    $sql = mysqli_query($connection, "SELECT * FROM users");
+    $outgoingId = $_SESSION['unique_id'];
+    $sql = mysqli_query($connection, "SELECT * FROM users WHERE NOT unique_id = {$outgoingId}");
     $output = "";
     if (mysqli_num_rows($sql) == 1) {
         $output .= "No users are available to chat"; 
