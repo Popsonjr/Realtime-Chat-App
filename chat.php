@@ -15,7 +15,7 @@
         <div class="wrapper">
             <section class="chat-area">
                 <header>    
-                    <a href="#" class="back-icon"><i class="fas fa-arrow-left"></i></a>
+                    <a href="users.php" class="back-icon"><i class="fas fa-arrow-left"></i></a>
                     <img src="<?php echo 'php/images/' . $row['image'] ?>" alt="">
                     <div class="details">
                         <span><?= $row['first_name'] . " ". $row['last_name'] ?></span>
@@ -24,50 +24,8 @@
                 
                 </header>
                 <div class="chat-box">
-                    <div class="chat outgoing">
-                        <div class="details">
-                            <p>wwwwwwwwwwwwwwwwwwwww</p>
-                        </div>
-                    </div>
-                    <div class="chat incoming">
-                        <img src="img.jpg" alt="">
-                        <div class="details">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </div>
-                    </div>
-                    <div class="chat outgoing">
-                        <div class="details">
-                            <p>wwwwwwwwwwwwwwwwwwwww</p>
-                        </div>
-                    </div>
-                    <div class="chat incoming">
-                        <img src="img.jpg" alt="">
-                        <div class="details">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </div>
-                    </div>
-                    <div class="chat outgoing">
-                        <div class="details">
-                            <p>wwwwwwwwwwwwwwwwwwwww</p>
-                        </div>
-                    </div>
-                    <div class="chat incoming">
-                        <img src="img.jpg" alt="">
-                        <div class="details">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </div>
-                    </div>
-                    <div class="chat outgoing">
-                        <div class="details">
-                            <p>wwwwwwwwwwwwwwwwwwwww</p>
-                        </div>
-                    </div>
-                    <div class="chat incoming">
-                        <img src="img.jpg" alt="">
-                        <div class="details">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </div>
-                    </div>
+                
+                    
                 </div>
                 <form action="#" class="typing-area" autocomplete="off">
                     <input type="text" name="outgoing_id" value="<?php echo $_SESSION['unique_id'] ?>" hidden>
